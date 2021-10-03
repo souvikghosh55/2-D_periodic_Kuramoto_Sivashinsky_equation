@@ -152,7 +152,7 @@ nu2 = 0.9								# nu2 = (pi/Ly)^2
 Mx = 32                            					# Number of modes in x
 My = 32                            					# Number of modes in y 
 
-c = 100.
+c = 100.                                            # Coefficient to ensure the positive definiteness of linear matrix A
 
 # Run time 
 Tf = 200.                          					# Final time
